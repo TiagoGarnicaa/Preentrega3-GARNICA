@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.primer-contenedor {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 750px;
+}
+.primer-contenedor h1 {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 20px;
+  transition: 0.5s;
+}
+.primer-contenedor h1:hover {
+  font-size: 45px;
+}
+.primer-contenedor p {
+  font-size: 20px;
+  width: 80%;
+  margin: 20px;
+  transition: 0.5s;
+}
+.primer-contenedor p:hover {
+  font-size: 22px;
+}
+.primer-contenedor img {
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  transition: 1s;
+}
+.primer-contenedor img:hover {
+  width: 350px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
